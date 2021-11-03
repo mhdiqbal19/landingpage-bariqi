@@ -47,7 +47,7 @@
           <a class="collapse-item" href="<?php echo base_url('admin/tentang_kami') ?>">Tentang Kami</a>
           <a class="collapse-item" href="<?php echo base_url('admin/data_portofolio') ?>">Portofolio</a>
           <a class="collapse-item" href="<?php echo base_url('admin/data_testimoni') ?>">Testimoni</a>
-          <a class="collapse-item" href="<?php echo base_url('admin/kontak') ?>">Kontak</a>
+          <a class="collapse-item" href="<?php echo base_url('admin/data_kontak') ?>">Kontak</a>
         </div>
       </div>
     </li>

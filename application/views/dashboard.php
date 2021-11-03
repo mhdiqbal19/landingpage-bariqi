@@ -82,7 +82,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="personal-banner-img">
-                            <img src="assets/home/images/portfolio/1.gif" alt="Image" width="350px">
+                            <img src="assets/home/images/portfolio/coba1.png" alt="Image" width="900px">
                             <div class="personal-shape">
                                 <img src="assets/home/images/shape/shape24.png" class="shape-24" alt="Shape">
                                 <img src="assets/home/images/shape/shape2.png" class="shape-2" alt="Shape">
@@ -148,42 +148,61 @@
                             <h2>Tentang Kami</h2>
                         </div>
                         <div class="who-we-are-text">
-                            <p>Bariqi.id adalah salah satu karya terbaik anak bangsa, yang bergerak dibidang pengembangan perangkat lunak, dibawah Perusahaan Konsultan PT. Sinergi Visi Utama, yang sudah bernama di Indonesia</p> 
-                            <p>Salah satu tujuan kami menciptakan Software yang berkualitas, aman, sesuai dengan kebutuhan perusahaan, Programmer yang berpengalaman dengan menggunakan Teknologi ter up to date, dan berasal dari kampus, Putra/Putri lulusan terbaik di Indonesia maupun Luar Negeri, mampu menyelesaikan Aplikasi dengan baik dan tepat waktu.</p>
-                            
+                            <?php foreach ($tentangkami as $ttg) : ?>
+                            <p><?php echo $ttg->isi1 ?></p>
+                            <p><?php echo $ttg->isi2 ?></p>
+                            <?php endforeach; ?>
                         </div>
 
                         <h3>Kenapa harus kami ?</h3>
-                        <ul>
-                            <li>
-                            <i class="las la-check-double"></i>
-                                Garansi Fast Respond
-                            </li>
-                            <li>
-                            <i class="las la-check-double"></i>
-                                Menemukan Solusi Terbaik
-                            </li>
-                            <li>
-                            <i class="las la-check-double"></i>
-                                Teknologi Terbaru
-                            </li>
-                            <li>
-                            <i class="las la-check-double"></i>
-                                Kontrol Progress on time
-                            </li>
-                            <li>
-                            <i class="las la-check-double"></i>
-                               Programmer Bersertifikasi
-                            </li>
-                            <li>
-                            <i class="las la-check-double"></i>
-                               Keamanan Data Terjaga
-                            </li>
-                            <li>
-                            <i class="las la-check-double"></i>
-                                Design UI/UX sesuai kebutuhan
-                            </li>
-                        </ul>
+                        <table>
+                            <tr>
+                                <td> 
+                                <ul>
+                                <li>                     
+                                <i class="las la-check-double"></i>
+                                    Garansi Fast Respond
+                                </li>
+                                <li>
+                                <i class="las la-check-double"></i>
+                                    Menemukan Solusi Terbaik
+                                </li>
+                                <li>
+                                <i class="las la-check-double"></i>
+                                    Teknologi Terbaru
+                                </li>
+                                <li>
+                                <i class="las la-check-double"></i>
+                                    Kontrol Progress on time
+                                </li>
+                                </u>
+                                </td>
+                                
+                                <td>
+                                <ul>
+                                    <li>
+                                    <i class="las la-check-double"></i>
+                                        Programmer Bersertifikasi
+                                    </li>
+                                    <li>
+                                    <i class="las la-check-double"></i>
+                                        Keamanan Data Terjaga
+                                    </li>
+                                    <li>
+                                    <i class="las la-check-double"></i>
+                                        Design UI/UX Sesuai Keinginan
+                                    </li>  
+                                    <li>
+                                    <i class="las la-check-double"></i>
+                                        User Friendly
+                                    </li>  
+                                </ul>
+                                </td>
+                            </tr>
+
+                        </table>
+                        
+                       
                         <div class="intro-btn">
                             <a href="tel:+6281278813689" class="default-btn" target="_blank">Telepon</a>
                             <a href="https://api.whatsapp.com/send?phone=081278813689" target="_blank" class="default-btn">WhatsApp</a>
@@ -193,7 +212,7 @@
 
                     <div class="col-lg-6">
                         <div class="">
-                            <img src="assets/home/images/portfolio/wifi.gif" class="we-are-img" alt="Image">
+                            <img src="assets/home/images/portfolio/28784-businessmen-at-the-table.gif" class="we-are-img" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -202,76 +221,27 @@
         <!-- End My Intro Area -->
 
 
-        <!-- Fun Fact Area -->
-        <div class="fun-facts-area pt-100 pb-70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-facts">
-                            <i class="las la-check-double icon-color-1"></i>
-                            <h3>
-                                <span class="odometer" data-count="120">00</span>
-                                +
-                            </h3>
-                            <p>Project Selesai</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-facts">
-                            <i class="las la-clock icon-color-2"></i>
-                            <h3>
-                                <span class="odometer" data-count="2000">00</span>
-                            </h3>
-                            <p>Fast Working</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-facts">
-                            <i class="las la-award icon-color-3"></i>
-                            <h3>
-                                <span class="odometer" data-count="120">00</span>
-                            </h3>
-                            <p>Award Won</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-facts">
-                            <i class="las la-smile-beam icon-color-4"></i>
-                            <h3>
-                                <span class="odometer" data-count="300">00</span>
-                                +
-                            </h3>
-                            <p>Apresiasi Testimoni</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Fun Fact Area -->
-
         <!-- Case Study Area -->
         <div id="portfolio" class="case-study-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
-                    <h2>Portfolio</h2>
+                    <h2>Portofolio</h2>
                     <p>Beberapa project aplikasi yang sudah kami buat, aplikasi Perusahaan/Perkantoran, mulai dari skala mikro maupun makro.</p>
                 </div>
+            
 
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6">
+                    <?php foreach ($portofolio as $port) : ?>
+                        <div class="col-lg-4 col-sm-6">
                         <div class="case-study-card">
-                            <img src="assets/home/images/seo-img/case-study1.jpg" alt="Image">
-                            
+                            <img src="<?php echo base_url().'/assets/admin/img/portofolio/'. $port->gambar ?> " alt="Image" width="375px" height="250px">
                             <div class="caption">
                                 <div class="d-table">
                                     <div class="d-table-cell">
                                         <div class="study-text">
-                                            <h3>Web Design</h3>
-                                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                                            <a href="#" target="blank">
+                                            <h3><?php echo $port->judul ?></h3>
+                                            <p><?php echo $port->isi ?></p>
+                                            <a href="<?php echo $port->link ?>" target="blank">
                                                 <i class="las la-arrow-right"></i>
                                             </a>
                                         </div>
@@ -280,101 +250,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="case-study-card">
-                            <img src="assets/home/images/seo-img/case-study2.jpg" alt="Image">
-                            <div class="caption">
-                                <div class="d-table">
-                                    <div class="d-table-cell">
-                                        <div class="study-text">
-                                            <h3>UI/UX Design</h3>
-                                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                                            <a href="#" target="blank">
-                                                <i class="las la-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="case-study-card">
-                            <img src="assets/home/images/seo-img/case-study3.jpg" alt="Image">
-                            <div class="caption">
-                                <div class="d-table">
-                                    <div class="d-table-cell">
-                                        <div class="study-text">
-                                            <h3>Web Development</h3>
-                                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                                            <a href="#" target="blank">
-                                                <i class="las la-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="case-study-card">
-                            <img src="assets/home/images/seo-img/case-study4.jpg" alt="Image">
-                            <div class="caption">
-                                <div class="d-table">
-                                    <div class="d-table-cell">
-                                        <div class="study-text">
-                                            <h3>App Development</h3>
-                                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                                            <a href="#" target="blank">
-                                                <i class="las la-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="case-study-card">
-                            <img src="assets/home/images/seo-img/case-study5.jpg" alt="Image">
-                            <div class="caption">
-                                <div class="d-table">
-                                    <div class="d-table-cell">
-                                        <div class="study-text">
-                                            <h3>Digital Marketing</h3>
-                                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                                            <a href="#" target="blank">
-                                                <i class="las la-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="case-study-card">
-                            <img src="assets/home/images/seo-img/case-study6.jpg" alt="Image">
-                            <div class="caption">
-                                <div class="d-table">
-                                    <div class="d-table-cell">
-                                        <div class="study-text">
-                                            <h3>App Design</h3>
-                                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the.</p>
-                                            <a href="#" target="blank">
-                                                <i class="las la-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
@@ -400,33 +276,8 @@
                             <i class="las la-star"></i>
                         </div>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                    </div>
+                    </div>                   
 
-                    <div class="testimonials-slider-item">
-                        <img src="assets/home/images/seo-img/client2.jpg" alt="Image">
-                        <h3>William leo</h3>
-                        <div class="rating">
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                        </div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                    </div>
-                    
-                    <div class="testimonials-slider-item">
-                        <img src="assets/home/images/seo-img/client3.jpg" alt="Image">
-                        <h3>Jhon Smith</h3>
-                        <div class="rating">
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                        </div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -436,13 +287,34 @@
         <div id="contact" class="contact-area pt-70 pb-100">
             <div class="container">
                 <div class="section-title">
-                    <h2>Contact Us</h2>
-                    </div>
-
-                <div class="row">
-
-
+                    <h2>Hubungi Kami</h2>
                 </div>
+                    <div class="row">
+                        <?php foreach ($kontak as $ktk) : ?>       
+                        
+                        <div class="col-lg-4 col-sm-6">
+                                <img class="card-img-top" src="assets/home/images/portfolio/lokasi.gif" style="width:100px; ">
+                                <div class="card-body">
+                                    <h5 class="card-title">Alamat :</h5>
+                                    <p class="card-text"><?php echo $ktk->alamat ?></p>
+                                </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 ">
+                                <img class="card-img-top" src="assets/home/images/portfolio/telp.gif" style="width:80px; ">
+                                <div class="card-body">
+                                    <h5 class="card-title">Layanan fast respon :</h5>
+                                    <p class="card-text"><?php echo $ktk->telepon    ?></p>
+                                </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                                <img class="card-img-top" src="assets/home/images/portfolio/email.gif" style="width:100px; ">
+                                <div class="card-body">
+                                    <h5 class="card-title">Email :</h5>
+                                    <p class="card-text"><?php echo $ktk->email ?></p>
+                                </div>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
             </div>
         </div>
         <!-- End Contact Area -->
