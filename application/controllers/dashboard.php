@@ -7,6 +7,7 @@
                 $data['portofolio'] = $this->model_portofolio->tampil_data()->result();
                 $data['tentangkami'] = $this->model_tentangkami->tampil_data()->result();
                 $data['kontak'] = $this->model_kontak->tampil_data()->result();
+                $data['testimoni'] = $this->model_testimoni->tampil_data()->result();
                 $this->load->view('dashboard',$data); 
             }
 

@@ -18,5 +18,5 @@
 
   <!-- Custom styles for this template-->
   <link href="<?php echo base_url() ?>assets/admin/css/sb-admin-2.min.css" rel="stylesheet">
-  <link rel="icon" type="images/png" href="assets/home/images/favicon.png">
+  <link rel="icon" type="images/png" href="<?php echo base_url() ?>assets/home/images/favicon.png">
 </head>

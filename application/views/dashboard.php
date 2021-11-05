@@ -7,22 +7,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/home/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/bootstrap.min.css">
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="assets/home/css/animate.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/animate.min.css">
         <!-- Magnific CSS -->
-        <link rel="stylesheet" href="assets/home/css/magnific-popup.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/magnific-popup.css">
         <!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="assets/home/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/home/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/owl.theme.default.min.css">
         <!-- Line Awesome CSS -->
-        <link rel="stylesheet" href="assets/home/css/line-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/line-awesome.min.css">
         <!-- Odometer CSS -->
-        <link rel="stylesheet" href="assets/home/css/odometer.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/odometer.css">
         <!-- Stylesheet CSS -->
-        <link rel="stylesheet" href="assets/home/css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/style.css">
         <!-- Stylesheet Responsive CSS -->
-        <link rel="stylesheet" href="assets/home/css/responsive.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>assets/home/css/responsive.css">
         <!-- Favicon -->
         <link rel="icon" type="images/png" href="assets/home/images/favicon.png">
         <!-- Title -->
@@ -44,7 +44,7 @@
         <nav class="navbar fixed-top navbar-expand-md main-navbar personal-nav">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/home/images/logo-white.png" alt="logo">
+                    <img src="<?php echo base_url() ?>assets/home/images/logo-white.png" alt="logo">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,11 +82,11 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="personal-banner-img">
-                            <img src="assets/home/images/portfolio/coba1.png" alt="Image" width="900px">
+                            <img src="<?php echo base_url() ?>assets/home/images/portfolio/coba1.png" alt="Image" width="900px">
                             <div class="personal-shape">
-                                <img src="assets/home/images/shape/shape24.png" class="shape-24" alt="Shape">
-                                <img src="assets/home/images/shape/shape2.png" class="shape-2" alt="Shape">
-                                <img src="assets/home/images/shape/shape13.png" class="shape-13" alt="Shape">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape24.png" class="shape-24" alt="Shape">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape2.png" class="shape-2" alt="Shape">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape13.png" class="shape-13" alt="Shape">
                             </div>
                         </div>
                     </div>
@@ -104,11 +104,11 @@
                             
 
                             <div class="personal-text-shape">
-                                <img src="assets/home/images/shape/shape2.png" class="shape-2" alt="Image">
-                                <img src="assets/home/images/shape/shape14.png" class="shape-14" alt="Image">
-                                <img src="assets/home/images/shape/shape4.png" class="shape-4" alt="Image">
-                                <img src="assets/home/images/shape/shape22.png" class="shape-22" alt="Image">
-                                <img src="assets/home/images/shape/shape23.png" class="shape-23" alt="Image">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape2.png" class="shape-2" alt="Image">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape14.png" class="shape-14" alt="Image">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape4.png" class="shape-4" alt="Image">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape22.png" class="shape-22" alt="Image">
+                                <img src="<?php echo base_url() ?>assets/home/images/shape/shape23.png" class="shape-23" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,8 @@
         <div class="information-area pt-100">
             <div class="container">
                 <div class="section-title">
-                    <h2>Technology Yang Digunakan</h2>
+                    <span>Technology Used</span>
+                    <h2>Technologi Yang Digunakan</h2>
                     <p>Aplikasi Anda up to date, dan mengikuti perkembangan terbaru, karena teknologi bergerak cepat, kami bantu Anda untuk mengikutinya</p>
                 </div>
 
@@ -145,6 +146,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="section-title">
+                            <span>About Us</span>
                             <h2>Tentang Kami</h2>
                         </div>
                         <div class="who-we-are-text">
@@ -212,7 +214,7 @@
 
                     <div class="col-lg-6">
                         <div class="">
-                            <img src="assets/home/images/portfolio/28784-businessmen-at-the-table.gif" class="we-are-img" alt="Image">
+                            <img src="<?php echo base_url() ?>assets/home/images/portfolio/28784-businessmen-at-the-table.gif" class="we-are-img" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -225,6 +227,7 @@
         <div id="portfolio" class="case-study-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
+                    <span>Portofolio Review</span>
                     <h2>Portofolio</h2>
                     <p>Beberapa project aplikasi yang sudah kami buat, aplikasi Perusahaan/Perkantoran, mulai dari skala mikro maupun makro.</p>
                 </div>
@@ -256,18 +259,20 @@
         </div>
         <!-- End Case Study Area -->
 
-        <!-- Testimonials Slider Area -->
-        <div id="testimonials" class="testimonials-area pt-100">
+        <!-- Testimonials Silder Two Area -->
+        <div id="testimonials" class="clients-slider-two-area ptb-100">
             <div class="container">
                 <div class="section-title">
-                    <span></span>
-                    <h2>Testimoni</h2>
+                    <span>Clients Review</span>
+                    <h2>Testimonials</h2>
                 </div>
-
-                <div class="testimonials-slider owl-carousel owl-theme">
-                    <div class="testimonials-slider-item">
-                        <img src="assets/home/images/seo-img/client1.jpg" alt="Image">
-                        <h3>Danial Henry</h3>
+                <div class="clients-slider-two owl-carousel owl-theme">
+                        
+                <?php foreach ($testimoni as $testi) : ?>
+                    <div class="slider-two-item">
+                        <img src="<?php echo base_url() ?>assets/home/images/seo-img/client11.png">
+                        <h3><?php echo $testi->nama ?></h3>
+                        <span><?php echo $testi->dari ?></span>
                         <div class="rating">
                             <i class="las la-star"></i>
                             <i class="las la-star"></i>
@@ -275,42 +280,50 @@
                             <i class="las la-star"></i>
                             <i class="las la-star"></i>
                         </div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                    </div>                   
-
+                        <p><?php echo $testi->pesan ?></p>
+                        <i class="las la-quote-left clients-icon"></i>
+                    </div>
+                <?php endforeach; ?>
+                </div><br>
+                <div class="tab pricing-tab mt-3">
+                    <ul class="tabs" data-toggle="modal" data-target="#tambah_testimoni">
+                        <li>Kirim Testimoni</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- End Testimonials Slider Area -->
+        <!-- End Testimonials Silder Two Area -->
+
 
         <!-- Contact Area -->
         <div id="contact" class="contact-area pt-70 pb-100">
             <div class="container">
                 <div class="section-title">
+                    <span>Contact</span>
                     <h2>Hubungi Kami</h2>
                 </div>
                     <div class="row">
                         <?php foreach ($kontak as $ktk) : ?>       
                         
                         <div class="col-lg-4 col-sm-6">
-                                <img class="card-img-top" src="assets/home/images/portfolio/lokasi.gif" style="width:100px; ">
+                                <center><img class="card-img-top" src="<?php echo base_url() ?>assets/home/images/portfolio/lokasi.gif" style="width:100px; "></center>
                                 <div class="card-body">
-                                    <h5 class="card-title">Alamat :</h5>
-                                    <p class="card-text"><?php echo $ktk->alamat ?></p>
+                                    <h5 class="card-title text-center">Alamat :</h5>
+                                    <p class="card-text text-center"><?php echo $ktk->alamat ?></p>
                                 </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 ">
-                                <img class="card-img-top" src="assets/home/images/portfolio/telp.gif" style="width:80px; ">
+                                <center><img class="card-img-top" src="<?php echo base_url() ?>assets/home/images/portfolio/telp.gif" style="width:80px; "></center>
                                 <div class="card-body">
-                                    <h5 class="card-title">Layanan fast respon :</h5>
-                                    <p class="card-text"><?php echo $ktk->telepon    ?></p>
+                                    <h5 class="card-title text-center">Layanan fast respon :</h5>
+                                    <p class="card-text text-center"><?php echo $ktk->telepon    ?></p>
                                 </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                                <img class="card-img-top" src="assets/home/images/portfolio/email.gif" style="width:100px; ">
+                                <center><img class="card-img-top" src="<?php echo base_url() ?>assets/home/images/portfolio/email.gif" style="width:100px; "></center>
                                 <div class="card-body">
-                                    <h5 class="card-title">Email :</h5>
-                                    <p class="card-text"><?php echo $ktk->email ?></p>
+                                    <h5 class="card-title text-center">Email :</h5>
+                                    <p class="card-text text-center"><?php echo $ktk->email ?></p>
                                 </div>
                         </div>
                         <?php endforeach; ?>
@@ -336,26 +349,65 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="assets/home/js/jquery.min.js"></script>
-        <script src="assets/home/js/popper.min.js"></script>
-        <script src="assets/home/js/bootstrap.min.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/jquery.min.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/popper.min.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/bootstrap.min.js"></script>
         <!-- Owl carousel JS -->
-        <script src="assets/home/js/owl.carousel.min.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/owl.carousel.min.js"></script>
         <!-- Magnific JS -->
-        <script src="assets/home/js/jquery.magnific-popup.min.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/jquery.magnific-popup.min.js"></script>
         <!-- Wow JS -->
-        <script src="assets/home/js/wow.min.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/wow.min.js"></script>
         <!-- Odometer JS -->
-        <script src="assets/home/js/odometer.min.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/odometer.min.js"></script>
         <!-- Jquery Apper JS -->
-        <script src="assets/home/js/jquery.appear.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/jquery.appear.js"></script>
         <!-- Form Validator JS -->
-		<script src="assets/home/js/form-validator.min.js"></script>
+		<script src="<?php echo base_url() ?>assets/home/js/form-validator.min.js"></script>
 		<!-- Contact JS -->
-		<script src="assets/home/js/contact-form-script.js"></script>
+		<script src="<?php echo base_url() ?>assets/home/js/contact-form-script.js"></script>
 		<!-- Ajaxchimp JS -->
-		<script src="assets/home/js/jquery.ajaxchimp.min.js"></script>
+		<script src="<?php echo base_url() ?>assets/home/js/jquery.ajaxchimp.min.js"></script>
         <!-- Custom JS -->
-        <script src="assets/home/js/custom.js"></script>
+        <script src="<?php echo base_url() ?>assets/home/js/custom.js"></script>
     </body>
 </html>
+ <!-- Modal -->
+ <div class="modal fade" id="tambah_testimoni" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form Input Testimoni</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="<?php echo base_url().'admin/data_testimoni/tambah_aksi1' ?>" method="post" enctype="multipart/form-data">
+
+        <div class="form-grup">
+            <label>Nama</label>
+            <input type="text" name="nama" class="form-control">        		
+        </div><br>
+        <div class="form-grup">
+            <label>Email</label>
+            <input type="email" name="email" class="form-control">        		
+        </div><br>
+        <div class="form-grup">
+            <label>Asal</label>
+            <input type="text" name="dari" class="form-control">        		
+        </div><br>
+        <div class="form-grup">
+            <label>Pesan</label>
+            <input type="text" name="pesan" class="form-control">        		
+        </div><br>
+
+      </div>
+      <div class="modal-footer">
+        <button type="reset" class="btn btn-danger" data-dismiss="modal">Reset</button>
+        <button type="submit" class="btn btn-primary">Simpan</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>

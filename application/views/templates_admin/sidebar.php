@@ -46,7 +46,7 @@
           <a class="collapse-item" href="<?php echo base_url('admin/data_teknologi') ?>">Data Teknologi</a>
           <a class="collapse-item" href="<?php echo base_url('admin/tentang_kami') ?>">Tentang Kami</a>
           <a class="collapse-item" href="<?php echo base_url('admin/data_portofolio') ?>">Portofolio</a>
-          <a class="collapse-item" href="<?php echo base_url('admin/data_testimoni') ?>">Testimoni</a>
+          <a class="collapse-item" href="<?php echo base_url('admin/data_testimoni') ?>">Testimonials</a>
           <a class="collapse-item" href="<?php echo base_url('admin/data_kontak') ?>">Kontak</a>
         </div>
       </div>
@@ -69,7 +69,8 @@
       <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
           <h6 class="collapse-header">Login Screens:</h6>
-          <a class="collapse-item" href="login.html">Login</a>
+          <a class="collapse-item" href="<?php echo base_url('admin/data_login') ?>">Kelola Login</a>
+          <a class="collapse-item" href="<?php echo base_url('login') ?>">Login</a>
         </div>
       </div>
     </li>
